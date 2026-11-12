@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TaskFlow helps teams organise projects, manage tasks and get work done.">
+  <title>TaskFlow — Work Smarter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">✦ TaskFlow</a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Get Started ↗</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">✦ YOUR TEAM'S NEW WORKSPACE</span>
+        <h1>Big ideas deserve <span>better organisation.</span></h1>
+        <p>
+          Plan projects, manage tasks and bring your team together.
+          Everything you need to get meaningful work done, in one place.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="primary-button">Start for free →</a>
+          <a href="#features" class="secondary-button">Explore features</a>
+        </div>
+
+        <div class="hero-note">
+          <span class="online-dot"></span>
+          Simple planning. Clear progress. Better teamwork.
+        </div>
+      </div>
+
+      <div class="dashboard">
+        <div class="dashboard-top">
+          <div>
+            <span class="muted">WORKSPACE / OVERVIEW</span>
+            <h3>My Projects</h3>
+          </div>
+          <span class="avatar">A</span>
+        </div>
+
+        <div class="stats">
+          <div class="stat-card">
+            <span>Active tasks</span>
+            <strong>24</strong>
+            <small>Across all projects</small>
+          </div>
+          <div class="stat-card">
+            <span>Completed</span>
+            <strong>18</strong>
+            <small>Tasks finished</small>
+          </div>
+        </div>
+
+        <div class="project-heading">
+          <strong>Project progress</strong>
+          <span class="muted">This week</span>
+        </div>
+
+        <div class="project">
+          <div class="project-line">
+            <span>Website redesign</span><b>75%</b>
+          </div>
+          <div class="progress"><span style="width:75%"></span></div>
+        </div>
+
+        <div class="project">
+          <div class="project-line">
+            <span>Marketing campaign</span><b>50%</b>
+          </div>
+          <div class="progress purple"><span style="width:50%"></span></div>
+        </div>
+
+        <div class="project">
+          <div class="project-line">
+            <span>Mobile application</span><b>30%</b>
+          </div>
+          <div class="progress orange"><span style="width:30%"></span></div>
+        </div>
+
+        <div class="dashboard-footer">✦ Your work, beautifully organised.</div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features-section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">WHAT YOU GET</span>
+        <h2>Everything your team needs to <span>move forward.</span></h2>
+        <p>Less confusion, more clarity. One workspace for all your work.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">✓</div>
+          <h3>Smart task management</h3>
+          <p>Create tasks, set priorities and keep every deadline under control.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">⌘</div>
+          <h3>Team collaboration</h3>
+          <p>Keep everyone aligned with a shared space for projects and updates.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">↗</div>
+          <h3>Progress tracking</h3>
+          <p>See project progress at a glance and understand what needs attention.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how-section" id="how">
+      <div class="section-heading">
+        <span class="eyebrow">GET STARTED IN MINUTES</span>
+        <h2>Three steps. <span>One organised team.</span></h2>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-number">01</span>
+          <h3>Create your workspace</h3>
+          <p>Set up your team workspace and bring your projects together.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <h3>Add your tasks</h3>
+          <p>Break projects into manageable tasks and assign priorities.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <h3>Track your progress</h3>
+          <p>Follow your progress and celebrate work completed together.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing-section" id="pricing">
+      <div class="section-heading">
+        <span class="eyebrow">SIMPLE PRICING</span>
+        <h2>A plan for <span>every team.</span></h2>
+        <p>Start small and upgrade when your team grows.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <span class="plan-name">STARTER</span>
+          <h3>Free</h3>
+          <p>For individuals and small projects.</p>
+          <ul>
+            <li>✓ Up to 3 projects</li>
+            <li>✓ Basic task management</li>
+            <li>✓ Progress tracking</li>
+          </ul>
+          <a href="#contact" class="secondary-button full-button">Get started</a>
+        </article>
+
+        <article class="price-card featured-price">
+          <span class="plan-name">PRO</span>
+          <h3>₹499 <small>/ month</small></h3>
+          <p>For teams ready to do more.</p>
+          <ul>
+            <li>✓ Unlimited projects</li>
+            <li>✓ Team collaboration</li>
+            <li>✓ Advanced progress tracking</li>
+          </ul>
+          <a href="#contact" class="primary-button full-button">Choose Pro →</a>
+        </article>
+      </div>
+      <p class="demo-note">*Illustrative demo pricing for this internship project.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy">
+        <span class="eyebrow">LET'S GET TO WORK</span>
+        <h2>Ready to make work <span>flow?</span></h2>
+        <p>Leave your details and our demo team will get in touch.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+
+        <label for="message">What would you like to organise?</label>
+        <textarea id="message" rows="3" placeholder="Tell us about your team..." required></textarea>
+
+        <button type="submit" class="primary-button full-button">Request a demo →</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">✦ TaskFlow</a>
+    <p>Plan smarter. Work better. Get things done.</p>
+    <span>© 2026 TaskFlow. Internship demo project.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
