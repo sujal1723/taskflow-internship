@@ -33,3 +33,20 @@ Front-End Development Internship Assignment
 
 Note: This is a front-end demonstration.
 The contact form does not connect to a backend.
+
+
+## Project Explanation
+
+TaskFlow is a responsive SaaS landing page concept
+designed for project and task management.
+
+- HTML5 was used to structure the website.
+- CSS3 was used for styling, layouts and responsive design.
+- JavaScript was used for mobile navigation and form validation.
+- CSS Grid and Flexbox were used to organise website elements.
+- Media queries make the website usable on desktop and mobile.
+- The contact form displays a success message after valid submission.
+
+This project was created as part of the Sankar Group
+Front-End Development Internship Assignment.
+
